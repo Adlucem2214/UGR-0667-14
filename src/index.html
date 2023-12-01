@@ -6,17 +6,19 @@
     <title>Home Page</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <i class='bx bx-menu'></i> 
-            </div>
-            <div>
-                <a href="#">ADLUCEM TECH</a>
-            </div>
+    <header class="wrapper">
 
+        <div class="menu-icon">
+            <i class='bx bx-menu'></i> 
+        </div>
+
+        <div>
+            <a href="#" id="link-top">ADLUCEM TECH</a>
+        </div>
+       <!--  <nav class="nav-bar">
             <div>
                 <div>
                     <i class='bx bx-x'></i>
@@ -40,39 +42,36 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> -->
     </header>
-    <main>
-        <section>
-            <div >
-                <div>
-                    <div>
-                        <img  src="images/aiback.png" alt="This my photo">
-                    </div>
-                    <div>
-                        <a href="#">
-                            <i class="uil uil-facebook-f"></i>
-                        </a>
-                        <a href="#">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                        <a href="#">
-                            <i class="uil uil-github"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <h1>Hi,This is Sifen</h1>
-                        <h3>Frontend developer</h3>
-                        <p>Welcome to my web portfolio! I am a highly skilled and creative individual with expertise in frontend development, UI design, and graphic design.</p>
-                        <button type="button">Contact Me</button>
-                    </div>
+
+    <main class="homemain">
+        <!-- <div class="all"> -->
+            <div class="picture">
+                <img class="myimage" src="images/aiback.png" alt="This my photo">
+
+                <div class="icons">
+                    <a href="#">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="uil uil-github"></i>
+                    </a>
                 </div>
+            </div> 
+            
+            <div class="para">
+                <h1>Hi,This is Sifen</h1>
+                <h3>Frontend developer</h3>
+                <p>Welcome to my web portfolio! I am a highly skilled and creative individual with expertise in frontend development, UI design, and graphic design.</p>
+                <button type="button" class="btn">Contact Me</button>
             </div>
-        </section>
-    </main>
-    <footer>
+        </main>
+        <footer>
         <div>
-            <p>For more info</p>
             <a href="#">
                 <i class="uil uil-facebook-f"></i>
             </a>
