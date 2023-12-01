@@ -6,16 +6,18 @@
     <title>Contact Me</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
+    <header class="wrapper">
+            <div class="menu-icon">
                 <i class='bx bx-menu'></i> 
             </div>
             <div>
-                <a href="#">ADLUCEM TECH</a>
+                <a href="#" id="link-top">ADLUCEM TECH</a>
             </div>
+
+           <!--  <nav>
 
             <div>
                 <div>
@@ -40,48 +42,44 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> -->
     </header>
-    <main> <!-- Contact class from orange-->
-        <h2>Contact</h2>
+    <main class="contactmain"> 
+        <h1>Contact</h1>
         <span> Get In Touch</span>
 
-        <div>
+        <div class="input-form">
             <form action="#">
-                <div>
                     <input type="text" placeholder="Name">
                     <input type="text" placeholder="Email">
-                </div>
-
-                <input type="text" placeholder="Project Name">
-                <textarea name="decription" id="textbox" cols="20" rows="10" placeholder="Project Description"></textarea>
-                <input type="submit" value="Send" class="button">
+                    <input type="text" placeholder="Project Name">
+                    <textarea name="decription" id="textbox" cols="20" rows="10" placeholder="Project Description"></textarea>
             </form>
+            <a href="#">Send</a>
 
             <div>
                 <div>
                     <h3>Dial Me</h3>
-                    <span>333-333-333</span>
-                    <span>444-444-444</span>
+                    <span class="num">333-333-333</span>
+                    <span class="num">444-444-444</span>
                 </div>
 
                 <div>
                     <h3>Email</h3>
-                    <span>example@gmail.com</span>
-                    <span>example2@gmail.com</span>
+                    <span class="num">example@gmail.com</span>
+                    <span class="num">example2@gmail.com</span>
                 </div>
 
                 <div>
                     <h3>Location</h3>
-                    <span>CMC,Addis Ababa</span>
-                    <span>Bole, Addis Ababa</span>
+                    <span class="num">CMC,Addis Ababa</span>
+                    <span class="num">Bole, Addis Ababa</span>
                 </div>                
             </div>
         </div>
     </main>
     <footer>
         <div>
-            <p>For more info</p>
             <a href="#">
                 <i class="uil uil-facebook-f"></i>
             </a>
