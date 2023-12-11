@@ -9,93 +9,94 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="wrapper">
-            <div class="menu-icon">
-                <i class='bx bx-menu'></i> 
-            </div>
-            <div>
-                <a href="#" id="link-top">ADLUCEM TECH</a>
-            </div>
-
-           <!--  <nav>
-
-            <div>
-                <div>
-                    <i class='bx bx-x'></i>
-                </div>
-
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav> -->
-    </header>
-    <main class="contactmain"> 
-        <h1>Contact</h1>
-        <span> Get In Touch</span>
-
-        <div class="input-form">
-            <form action="#">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Project Name">
-                    <textarea name="decription" id="textbox" cols="20" rows="10" placeholder="Project Description"></textarea>
-            </form>
-            <a href="#">Send</a>
-
-            <div>
-                <div>
-                    <h3>Dial Me</h3>
-                    <span class="num">333-333-333</span>
-                    <span class="num">444-444-444</span>
-                </div>
-
-                <div>
-                    <h3>Email</h3>
-                    <span class="num">example@gmail.com</span>
-                    <span class="num">example2@gmail.com</span>
-                </div>
-
-                <div>
-                    <h3>Location</h3>
-                    <span class="num">CMC,Addis Ababa</span>
-                    <span class="num">Bole, Addis Ababa</span>
-                </div>                
-            </div>
+    <header class="Tophead">       
+        <div class="Tophead__icon">
+            <i class='bx bx-menu'></i> 
         </div>
-    </main>
-    <footer>
         <div>
-            <a href="#">
-                <i class="uil uil-facebook-f"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-instagram"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-github"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-telegram"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-youtube"></i>
-            </a>
+            <a href="index.html" class="Tophead__link">ADLUCEM TECH</a>
         </div>
-    </footer>
+    <nav class="Tophead__nav">
+        <div class="Tophead__nav">
+           <!--  <div>
+                <i class='bx bx-x'></i>
+            </div> -->
+
+            <ul class="Tophead__list">
+                <li class="Tophead__item">
+                    <a class="Tophead__anchor" href="index.html">Home</a>
+                </li>
+                <li class="Tophead__item">
+                    <a class="Tophead__anchor" href="skills.html">Skills</a>
+                </li>
+                <li class="Tophead__item">
+                    <a class="Tophead__anchor" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="Tophead__item">
+                    <a class="Tophead__anchor" href="service.html">Service</a>
+                </li>
+                <li class="Tophead__item">
+                    <a class="Tophead__anchor" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main class="Contmain">
+    <h1 class="Contmain__head">Contact</h1>
+    <span class="Contmain__span">Get In Touch</span>
+
+<div class="Contmain__input">
+    <form class="Contmain__form" action="#">
+         <div class="Contmain__space">
+            <input class="Contmain__fill" type="text" placeholder="Name" class="name">
+            <input class="Contmain__fill" type="text" placeholder="Email" class="email">
+            <input class="Contmain__fill" type="text" placeholder="Project Name">
+        </div>
+            <textarea class="Contmain__text" name="decription" id="textbox" cols="20" rows="10" placeholder="Project Description"></textarea>
+    </form>
+        <a class="Contact__anchor" href="https://github.com">Send</a>
+        
+        
+        <!-- <input type="submit" value="Send" class="button"> -->
+    </div>
+    <div class="Contmain__address">
+       <div class="Contact__phone">     
+        <h3 class="Contmain__addresshead">Dial Me</h3>
+        <p class="Contmain__para">333-333-333</p>
+        <p class="Contmain__para">444-444-444</p>
+       </div>
+    
+      <div class="Contmain__email">
+        <h3 class="Contmain__addresshead">Email</h3>
+        <p class="Contmain__para">example@gmail.com</p>
+        <p class="Contmain__para">example2@gmail.com</p>
+      </div>
+
+      <div class="Contmain__location">
+        <h3 class="Contmain__addresshead">Location</h3>
+        <p class="Contmain__para">CMC,Addis Ababa</p>
+        <p class="Contmain__para">Bole, Addis Ababa</p> 
+      </div> 
+    </div>              
+</div>
+</main>
+<footer class="footer6">
+        <a class="footer6__anchor" href="https://www.facebook.com">
+            <i class="uil uil-facebook-f"></i>
+        </a>
+        <a class="footer6__anchor" href="https://www.instagram.com">
+            <i class="uil uil-instagram"></i>
+        </a>
+        <a class="footer6__anchor" href="https://github.com">
+            <i class="uil uil-github"></i>
+        </a>
+        <a class="footer6__anchor" href="https://telegram.org">
+            <i class="uil uil-telegram"></i>
+        </a>
+        <a class="footer6__anchor" href="https://www.youtube.com">
+            <i class="uil uil-youtube"></i>
+        </a>
+</footer>
 </body>
 </html>
