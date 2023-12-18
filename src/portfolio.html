@@ -6,128 +6,158 @@
     <title>Portfolio Page</title>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                <i class='bx bx-menu'></i> 
+        <nav class="navbar has-shadow is-primary" >
+            <div class="navbar-burger">
+                <i class='bx bx-menu mt-6 pt-4 is-size-3'></i> 
             </div>
-            <div>
-                <a href="#">ADLUCEM TECH</a>
+            
+            
+            <div class="navbar-brand">
+                <a class="navbar-item mb-1 is-size-3 title" href="index.html" >
+                    ADLUCEM TECH
+                </a>
             </div>
-
-            <div>
-                <div>
+      
+            <div class="navbar-menu" id="nav-links">
+              <!--   <div>
                     <i class='bx bx-x'></i>
-                </div>
-
-                <ul>
+                </div> -->
+                <ul class="navbar-end py-5">
                     <li>
-                        <a href="#">Home</a>
+                        <a class="navbar-items is-White px-3 is-size-5"  href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">Service</a>
+                        <a class="navbar-items px-3 is-size-5"  href="skills.html">Skills</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a class="navbar-items px-3 is-size-5" href="portfolio.html">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Service</a>
+                        <a class="navbar-items px-3 is-size-5" href="service.html">Service</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a class="navbar-items px-3 is-size-5" href="contact.html">Contact</a>
                     </li>
                 </ul>
+                
             </div>
-        </nav>
+        </nav> 
     </header>
-    
-    <main>
-        <div>
-            <h2>Portfolio</h2>
-            <p> Some of my works</p>
+ <div class="ml-6 mt-4">
+    <h1 class="is-size-3 title">Portfolio</h1>
+            <p class="subtitle mb-3"> Some of my works</p>
             <p>Welcome to my portfolio page! Here you will find a collection of my work in web development, UI design, and graphic design. I am passionate about creating visually appealing and user-friendly digital experiences, and I have had the opportunity to work on a variety of projects that showcase my skills in these areas. Whether it's building a responsive website, designing an intuitive user interface, or creating eye-catching graphics, I strive to deliver high-quality work that meets the needs of my clients and engages their target audience.</p>
-        </div>
-        <div>
+ </div>
+    
+    <main class="section">
+        <div class="container">
+            <div class="columns mt-5 is-8 is-varible is-multiline"> 
+                <div class="column is-6-tablet is-4-desktop">
+                 <div class="card box has-background-danger-light">
+                    <img class="card-img has-text-centered px-6" src="images/goldencard2.png" alt="golden business card">
+                    <div class="has-text-right mr-6">
+                     <a href="https://github.com" class=" button is-primary is-rounded ml-6 px-3 mb-3 mt-3 card-item ">
+                        Demo 
+                        <i class="uil uil-arrow-right button_icon"></i>
+                     </a>
+                    </div>
+                 </div>
+                </div>
+                
+                <div class="column is-6-tablet is-4-desktop" >
+                 <div class="card box has-background-danger-light">
+                    <img class="card-img has-text-centered px-6" src="images/coffee2.jpg" alt=" E-commerce website ">
+                    <div class="has-text-right mr-6">
+                      <a href="https://github.com" class="button is-primary is-rounded ml-6 px-3 mb-3 mt-3 card-item">
+                        Demo 
+                        <i class="uil uil-arrow-right button_icon"></i>
+                      </a>
+                    </div>
+                 </div>
+                </div>
+
+                <div class="column is-6-tablet is-4-desktop">
+                 <div class="card box has-background-danger-light">
+                    <img class="card-img has-text-centered px-6" src="images/darkpc2.jpg" alt="IMS website">
+                    <div class="has-text-right mr-6">
+                      <a href="https://github.com" class="card-item button is-primary is-rounded ml-6 px-3 mb-3 mt-3">
+                        Demo 
+                         <i class="uil uil-arrow-right button_icon"></i>
+                      </a>
+                    </div>
+                 </div>
+                </div>
+                
+                
+                <div class="column is-6-tablet is-4-desktop">
+                    <div class="card box has-background-danger-light">
+                       <img class="card-img has-text-centered px-6" src="images/game2.jpg" alt="IMS website">
+                       <div class="has-text-right mr-6">
+                        <a href="https://github.com" class="card-item button is-primary is-rounded ml-6 px-3 mb-3 mt-3">
+                           Demo 
+                           <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+               
+                <div class="column is-6-tablet is-4-desktop">
+                    <div class="card box has-background-danger-light">
+                       <img class="card-img has-text-centered px-6" src="images/makeup2.jpg" alt="IMS website">
+                       <div class="has-text-right mr-6">
+                        <a href="https://github.com" class="card-item button is-primary is-rounded ml-6 px-3 mb-3 mt-3">
+                           Demo 
+                           <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="column is-6-tablet is-4-desktop">
+                    <div class="card box has-background-danger-light">
+                       <img class="card-img has-text-centered px-6" src="images/bluecard3.jpg" alt="IMS website">
+                       <div class="has-text-right mr-6">
+                         <a href="https://github.com" class="card-item button is-primary is-rounded ml-6 px-3 mb-3 mt-3">
+                           Demo 
+                           <i class="uil uil-arrow-right button_icon"></i>
+                         </a>
+                       </div>
+                    </div>
+                </div>
+                
+               
+            </div>    
+
             <div>
-                <div>
-                    <img class="portfoli_img" src="images/goldencard2.png" alt="golden business card">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/coffee2.jpg" alt=" E-commerce website ">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/darkpc2.jpg" alt="IMS website">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/game2.jpg" alt="Game">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/makeup2.jpg" alt="Cosmetics webapp">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/bluecard3.jpg" alt="Business Card">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div>
-            <button class="@@@@" type="button">Download CV</button>
-        </div>
+                <button class="button is-rounded has-background-primary" type="button">Download CV</button>
+            </div>  
+
+        </div>             
     </main>
-    <footer>
-        <p>For more info</p>
-        <a href="#">
-            <i class="uil uil-facebook-f"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-instagram"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-github"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-telegram"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-youtube"></i>
-        </a>
+    
+    <footer class="footer has-background-primary is-paddingless">
+        <div class="content has-text-centered is-primary">
+            <a class="px-6"  href="https://www.facebook.com">
+                <i class="uil uil-facebook-f px-6 is-size-3"></i>
+            </a>
+            <a class="px-6"  href="https://www.instagram.com">
+                <i class="uil uil-instagram px-6 is-size-3"></i>
+            </a>
+            <a class="px-6"  href="https://github.com">
+                <i class="uil uil-github px-6 is-size-3"></i>
+            </a>
+            <a class="px-6"  href="https://telegram.org">
+                <i class="uil uil-telegram px-6 is-size-3"></i>
+            </a>
+            <a class="px-6"  href="https://www.youtube.com">
+                <i class="uil uil-youtube px-6 is-size-3"></i>
+            </a>
+        </div>
     </footer>
+
 </body>
 </html>

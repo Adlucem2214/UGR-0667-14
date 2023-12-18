@@ -1,0 +1,36 @@
+#Main__description{
+    margin-top: 100px;
+}
+#Main__picture{
+    margin-top: 100px;
+}
+#Footer__home{
+    margin-top: 200px;
+}
+@media (max-width: 768px){
+        
+      .Main__description {
+        display: flex;
+        width: 80%;
+        padding-right: 0;
+        order: 1; /* Places .para below the image */
+      }
+      .Main__image {
+        order: -1; /* Places the image on top */
+        min-width: 80px;
+        max-width: 200px;
+        margin-left: 30%;
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+      }
+      .Main__icons {
+          order: -1;
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: row; /* Aligns icons vertically */
+          align-items: center; /* Aligns icons to the left */
+          padding-left: 0; /* Resets left padding */
+          margin-top: 20px; /* Adds margin between image and icons */
+      }
+}

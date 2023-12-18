@@ -6,98 +6,130 @@
     <title>Contact Me</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                <i class='bx bx-menu'></i> 
+        <nav class="navbar has-shadow is-primary" >
+            <div class="navbar-burger">
+                <i class='bx bx-menu mt-6 pt-4 is-size-3'></i> 
             </div>
-            <div>
-                <a href="#">ADLUCEM TECH</a>
+            
+            
+            <div class="navbar-brand">
+                <a class="navbar-item mb-1 is-size-3 title" href="index.html" >
+                    ADLUCEM TECH
+                </a>
             </div>
-
-            <div>
-                <div>
-                    <i class='bx bx-x'></i>
-                </div>
-
-                <ul>
+      
+            <div class="navbar-menu" id="nav-links">
+                <ul class="navbar-end py-5">
                     <li>
-                        <a href="#">Home</a>
+                        <a class="navbar-items is-White px-3 is-size-5"  href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">Service</a>
+                        <a class="navbar-items px-3 is-size-5"  href="skills.html">Skills</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a class="navbar-items px-3 is-size-5" href="portfolio.html">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Service</a>
+                        <a class="navbar-items px-3 is-size-5" href="service.html">Service</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a class="navbar-items px-3 is-size-5" href="contact.html">Contact</a>
                     </li>
                 </ul>
+                
             </div>
-        </nav>
+        </nav> 
     </header>
-    <main> <!-- Contact class from orange-->
-        <h2>Contact</h2>
-        <span> Get In Touch</span>
-
-        <div>
-            <form action="#">
-                <div>
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
+   <main>
+        <h1 class=" mt-2 ml-6 is-size-3">Contact</h1>
+        <span class= "ml-6 is-size-5">Get In Touch</span>
+    <div>
+        <div class="field is-horizontal mt-6 ">
+            <div class="field-body is-vcentered columns is-centered">
+              <div class="field is-narrow">
+                <div class="control">
+                  <input class="input is-centered-desktop is-centered-mobile" type="text" placeholder="Name">
                 </div>
-
-                <input type="text" placeholder="Project Name">
-                <textarea name="decription" id="textbox" cols="20" rows="10" placeholder="Project Description"></textarea>
-                <input type="submit" value="Send" class="button">
-            </form>
-
-            <div>
-                <div>
-                    <h3>Dial Me</h3>
-                    <span>333-333-333</span>
-                    <span>444-444-444</span>
+              </div>
+              <div class="field is-narrow">
+                <div class="control">
+                  <input class="input is-centered" type="text" placeholder="Email">
                 </div>
-
-                <div>
-                    <h3>Email</h3>
-                    <span>example@gmail.com</span>
-                    <span>example2@gmail.com</span>
+              </div>
+              <div class="field is-narrow">
+                <div class="control">
+                  <input class="input is-centered" type="text" placeholder="Project title">
                 </div>
-
-                <div>
-                    <h3>Location</h3>
-                    <span>CMC,Addis Ababa</span>
-                    <span>Bole, Addis Ababa</span>
-                </div>                
+              </div>
             </div>
         </div>
+
+        <div class="columns">
+            <div class="column is-offset-4 is-4 mr-6">
+              <textarea class="textarea mt-5" name="decription" id="textbox" cols="30" rows="10"  placeholder="Project Description"></textarea>
+              <a class="button is-primary is-offset-4 mt-5"  href="https://github.com">Send</a>
+            </div>
+          
+        </div>
+    </div>
+</main>
+
+    <main class="section">
+        <div class="container">
+            <div class="columns mt-5 is-8 is-varible is-multiline ml-6"> 
+                <div class="column is-6-tablet is-4-desktop">
+                    <div>     
+                        <h3 class="has-text-primary is-size-5">Dial Me</h3>
+                        <p>333-333-333</p>
+                        <p>444-444-444</p>
+                    </div>
+                </div>
+                
+                <div class="column is-6-tablet is-4-desktop" >
+                    <div>
+                        <h3 class="has-text-primary is-size-5">Email</h3>
+                        <p>example@gmail.com</p>
+                        <p>example2@gmail.com</p>
+                      </div>
+                </div>
+
+                <div class="column is-6-tablet is-4-desktop" >
+                    <div>
+                        <h3 class="has-text-primary is-size-5">Email</h3>
+                        <p>example@gmail.com</p>
+                        <p>example2@gmail.com</p>
+                      </div>
+                </div>                            
+            </div>     
+        </div>             
     </main>
-    <footer>
-        <div>
-            <p>For more info</p>
-            <a href="#">
-                <i class="uil uil-facebook-f"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-instagram"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-github"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-telegram"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-youtube"></i>
-            </a>
+    <footer class="footer has-background-primary is-paddingless is-paddingless-mobile">
+        <div class="content has-text-centered is-primary columns">
+                <a class="px-6 column is-2-desktop"  href="https://www.facebook.com">
+                    <i class="uil uil-facebook-f px-6 is-size-3 is-2-tablet is-6-mobile"></i>
+                </a>
+    
+                <a class="px-6 column is-2-desktop"  href="https://www.instagram.com">
+                    <i class="uil uil-instagram px-6 is-size-3 is-2-tablet is-6-mobile"></i>
+                </a>
+    
+                <a class="px-6 column is-2-desktop"  href="https://github.com">
+                    <i class="uil uil-github px-6 is-size-3 is-2-tablet is-6-mobile "></i>
+                </a>
+            
+                <a class="px-6 column is-2-desktop"  href="https://telegram.org">
+                    <i class="uil uil-telegram px-6 is-size-3 is-2-tablet is-6-mobile"></i>
+                </a>
+    
+                <a class="px-6 column is-2-desktop"  href="https://www.youtube.com">
+                    <i class="uil uil-youtube px-6 is-size-3 is-2-tablet is-6-mobile"></i>
+                </a>
         </div>
     </footer>
+
 </body>
 </html>

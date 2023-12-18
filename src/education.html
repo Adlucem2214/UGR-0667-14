@@ -6,80 +6,99 @@
     <title>Document</title>    
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">   
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
-        <header>
+    <header>
+        <nav class="navbar has-shadow is-primary" >
+            <div class="navbar-burger">
+                <i class='bx bx-menu mt-6 pt-4 is-size-3'></i> 
+            </div>
             
-            <nav>
-                <div>
-                    <i class='bx bx-menu'></i> 
+            
+            <div class="navbar-brand">
+                <a class="navbar-item mb-1 is-size-3 title" href="index.html" >
+                    ADLUCEM TECH
+                </a>
+            </div>
+      
+            <div class="navbar-menu" id="nav-links">
+              <!--   <div>
+                    <i class='bx bx-x'></i>
+                </div> -->
+                <ul class="navbar-end py-5">
+                    <li>
+                        <a class="navbar-items is-White px-3 is-size-5"  href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="navbar-items px-3 is-size-5"  href="skills.html">Skills</a>
+                    </li>
+                    <li>
+                        <a class="navbar-items px-3 is-size-5" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="navbar-items px-3 is-size-5" href="service.html">Service</a>
+                    </li>
+                    <li>
+                        <a class="navbar-items px-3 is-size-5" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav> 
+    </header>
+
+    <div>
+        <h1 class="mt-2 ml-6 is-size-3">Education</h1>
+        <span class="ml-6 is-size-5">My educational background</span>
+    </div>
+
+<main class="conatiner mt-6">
+    <section class="columns">
+        <div  class="column is-7 is-4-moblie ml-6 is-centered-mobile">
+
+            <div>
+                <h2 class="ml-6 pl-6 subtitle">High School Degree</h2>
+                <div class="image-container has-border ml-6">
+                   <img class="ml-6 pl-6 is-rounded has-border" src="images/highschool.jpg" alt="This highschool certificate">
                 </div>
-                <div>
-                    <a href="#">ADLUCEM TECH</a>
+                <p class="has-text-centered">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur repellat aspernatur cupiditate aperiam sapiente numquam cum sequi debitis consequatur quas, nemo voluptas ut est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ad accusamus. Fugiat asperiores fugit incidunt! </p>
+            </div>
+
+            <div>
+                <h2 class="ml-6 pl-6 subtitle">Bachelor's Degree</h2>
+                <div class="image-container has-border ml-6 ml-2-mobile">
+                   <img class="ml-6 pl-6 ml-2-mobile" src="images/bachelor3.jpg" alt="This bachelor certificate">
                 </div>
-    
-                <div>
-                    <div>
-                        <i class='bx bx-x'></i>
-                    </div>
-    
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Service</a>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#">Service</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
+                <p class="has-text-centered" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vero asperiores culpa consequatur sint facere, alias aut, vel ab quas expedita, debitis ratione reprehenderit voluptate! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos est ipsum asperiores exercitationem quae. Facilis? </p>
+            </div>
+
+            <div>
+                <h2  class="ml-6 pl-6 subtitle">Masters Degree</h2>
+                <div class="image-container has-border ml-6 ml-2-mobile">
+                  <img  class="ml-6 pl-6 ml-2-mobile" src="images/masters3.jpg" alt="This masters certificate">
                 </div>
-            </nav>
-        </header>
-        <main>
-            <h2>Education</h2>
-            <span>My educational background</span>
-
-            <div>
-                <h3>High School Degree</h3>
-                <img src="images/highschool.jpg" alt="This highschool certificate">
-                <p>I am proud to have earned my high school degree from Hillside School with great honor. The rigorous academic curriculum and supportive community at Hillside School have prepared me for the next stage of my education and future career. I have worked hard to achieve this honor and am grateful for the guidance and encouragement of my teachers and mentors. This achievement represents not only my academic success, but also my commitment to personal growth and excellence. I am excited to carry the values and skills I have gained at Hillside School into my future endeavors.</p>
+                <p class="has-text-centered" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia consequatur magnam quae assumenda eius a illum, qui nihil suscipit facere impedit sequi cumque, debitis aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus pariatur id necessitatibus a, quisquam itaque.</p>
             </div>
 
-            <div>
-                <h3>Bachelor's Degree</h3>
-                <img src="images/bachelor3.jpg" alt="This bachelor certificate">
-                <p>I am proud to have earned my bachelor's degree from Addis Ababa University with great honor. The challenging academic program and diverse learning environment at the university have equipped me with the knowledge and skills necessary for my future career. I have dedicated myself to my studies and am grateful for the support and mentorship of my professors and peers. This achievement reflects my dedication to academic excellence and personal development. I am eager to apply the knowledge and experiences gained at Addis Ababa University to make a positive impact in my future endeavors.</p>
-            </div>
+        </div>
 
-            <div>
-                <h3>Masters Degree</h3>
-                <img src="images/masters3.jpg" alt="This masters certificate">
-                <p>I am proud to have earned my master's degree from Colombia University with great honor. The rigorous academic program and vibrant learning environment at the university have provided me with the advanced knowledge and skills necessary for my future career. I have dedicated myself to my studies and am grateful for the support and mentorship of my professors and peers. This achievement reflects my commitment to academic excellence and personal growth. I am eager to apply the knowledge and experiences gained at Colombia University to make a meaningful contribution in my future endeavors</p>
-            </div>
+        <div class=" column is-3 ml-6 mt-6 pt-6 pl-6">
+            <aside>
+                <div class="mb-6 is-centered-mobile">
+                    <img class="is-small-tablet" src="images/Addis Ababa University logo.jpeg" alt="colombia university">
+                    <p class="has-text-centered">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea delectus quos a, quod cum blanditiis enim, ut architecto molestias dignissimos minus excepturi sint? Quia, <distinctio class="lorem15"></distinctio></p>
+                </div>
+                <div class="is-centered-mobile">
+                    <img  src="images/coloradouni.jpg" alt="Addis Ababa university">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officia minima, officiis rem, iure a nihil exercitationem velit neque quas praesentium labore, eligendi vel facere.</p>
+                </div>                   
+            </aside>
+        </div>
+    </section>
 
-            <div>
-                <aside>
-                    <div>
-                        <img src="images/Addis Ababa University logo.jpeg" alt="Addis Ababa university">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea delectus quos a, quod cum blanditiis enim, ut architecto molestias dignissimos minus excepturi sint? Quia</p>
-                    </div>
-                    <div>
-                        <img src="images/coloradouni.jpg" alt="colombia university">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officia minima, officiis rem, iure a nihil exercitationem velit neque quas praesentium labore, eligendi vel facere.</p>
-                    </div>                   
-                </aside>
-            </div>
-
-            <div>
-                <Address>
+           
+                <Address class="ml-6 mb-6">
                     <p>Email:addisababauni@gmail.com</p>
                     <p>Location:6kilo Addis Ababa,Ethiopia</p>
                     <p>Phone:444-444-444</p>
@@ -88,26 +107,30 @@
                     <p>Location:116th and Broadway, New York, NY 10027, USA</p>
                     <p>Phone:666-666-666</p>
                 </Address>
-            </div>
         </main>
-        <footer>
-            <div>
-                <p>For more info</p>
-                <a href="#">
-                    <i class="uil uil-facebook-f"></i>
-                </a>
-                <a href="#">
-                    <i class="uil uil-instagram"></i>
-                </a>
-                <a href="#">
-                    <i class="uil uil-github"></i>
-                </a>
-                <a href="#">
-                    <i class="uil uil-telegram"></i>
-                </a>
-                <a href="#">
-                    <i class="uil uil-youtube"></i>
-                </a>
+        
+        <footer class="footer has-background-primary is-paddingless is-paddingless-mobile">
+            <div class="content has-text-centered is-primary columns">
+                    <a class="px-6 column is-2-desktop"  href="https://www.facebook.com">
+                        <i class="uil uil-facebook-f px-6 is-size-3 is-2-tablet is-6-mobile"></i>
+                    </a>
+        
+                    <a class="px-6 column is-2-desktop"  href="https://www.instagram.com">
+                        <i class="uil uil-instagram px-6 is-size-3 is-2-tablet is-6-mobile"></i>
+                    </a>
+        
+                    <a class="px-6 column is-2-desktop"  href="https://github.com">
+                        <i class="uil uil-github px-6 is-size-3 is-2-tablet is-6-mobile "></i>
+                    </a>
+                
+                    <a class="px-6 column is-2-desktop"  href="https://telegram.org">
+                        <i class="uil uil-telegram px-6 is-size-3 is-2-tablet is-6-mobile"></i>
+                    </a>
+        
+                    <a class="px-6 column is-2-desktop"  href="https://www.youtube.com">
+                        <i class="uil uil-youtube px-6 is-size-3 is-2-tablet is-6-mobile"></i>
+                    </a>
+        
             </div>
         </footer>
 </body>
