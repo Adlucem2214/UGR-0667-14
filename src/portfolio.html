@@ -3,131 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Page</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- This is 17 line css added because the mandatory to adjust some elements -->
+
 </head>
 <body>
+    
     <header>
-        <nav>
-            <div>
-                <i class='bx bx-menu'></i> 
-            </div>
-            <div>
-                <a href="#">ADLUCEM TECH</a>
-            </div>
-
-            <div>
-                <div>
-                    <i class='bx bx-x'></i>
+        <nav class="bg-blue-500 py-6 shadow">
+            <div class="flex justify-between items-center px-4 py-2 align-center">
+                <div class="flex items-center">
+                    <div class="text-white text-3xl font-bold">
+                        <a href="index.html" class="px-4 py-2">ADLUCEM TECH</a>
+                    </div>
                 </div>
-
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
+                <div class="md:hidden">
+                    <button class="p-2 text-white" id="menu-toggle">
+                        <i class='bx bx-menu text-3xl'></i>
+                    </button>
+                </div>
+                <div class="hidden md:block">
+                    <ul class="flex space-x-4 text-white text-lg justify-end">
+                        <li><a href="index.html" class="px-4 py-2">Home</a></li>
+                        <li><a href="skills.html" class="px-4 py-2">Skills</a></li>
+                        <li><a href="portfolio.html" class="px-4 py-2">Portfolio</a></li>
+                        <li><a href="service.html" class="px-4 py-2">Service</a></li>
+                        <li><a href="contact.html" class="px-4 py-2">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:hidden md:hidden  md:flex md:flex-col md:items-start" id="menu-items">
+                <a href="index.html" class="block text-white px-4 py-2">Home</a>
+                <a href="skills.html" class="block text-white px-4 py-2">Skills</a>
+                <a href="portfolio.html" class="block text-white px-4 py-2">Portfolio</a>
+                <a href="service.html" class="block text-white px-4 py-2">Service</a>
+                <a href="contact.html" class="block text-white px-4 py-2">Contact</a>
             </div>
         </nav>
     </header>
-    
-    <main>
-        <div>
-            <h2>Portfolio</h2>
-            <p> Some of my works</p>
-            <p>Welcome to my portfolio page! Here you will find a collection of my work in web development, UI design, and graphic design. I am passionate about creating visually appealing and user-friendly digital experiences, and I have had the opportunity to work on a variety of projects that showcase my skills in these areas. Whether it's building a responsive website, designing an intuitive user interface, or creating eye-catching graphics, I strive to deliver high-quality work that meets the needs of my clients and engages their target audience.</p>
+
+    <div class="pb-12 pl-12">
+        <h1 class="text-3xl font-bold ml-6 pt-5 pb-2">Portfolio</h1>
+              <p class="text-gray-600 ml-6 pb-3"> Some of my works</p>
+              <p class="text-justify mr-12">Welcome to my portfolio page! Here you will find a collection of my work in web development, UI design, and graphic design. I am passionate about creating visually appealing and user-friendly digital experiences, and I have had the opportunity to work on a variety of projects that showcase my skills in these areas. Whether it's building a responsive website, designing an intuitive user interface, or creating eye-catching graphics, I strive to deliver high-quality work that meets the needs of my clients and engages their target audience.</p>
+     </div>
+
+     <main class="section">
+      <div class="container">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5 lg:ml-40 md:ml-12 md:mr-12 sm:ml-6 sm:mr-12 pl-12">
+              <div class="card box bg-red-200 rounded-lg">
+                  <img class="card-img h-64 object-cover p-4 rounded-lg" src="images/goldencard2.png" alt="golden business card">
+                  <div class="flex justify-end mr-6">
+                      <a href="https://github.com" class="button bg-blue-500 text-white rounded-lg py-2 px-3 mt-3 mb-3">
+                          Demo
+                          <i class="uil uil-arrow-right button_icon"></i>
+                      </a>
+                  </div>
+              </div>
+  
+              <div class="card box bg-red-200 rounded-lg">
+                  <img class="card-img h-64 object-cover p-4 rounded-lg" src="images/coffee2.jpg" alt="E-commerce website">
+                  <div class="flex justify-end mr-6">
+                      <a href="https://github.com" class="button bg-blue-500 text-white rounded-lg py-2 px-3 mt-3 mb-3">
+                          Demo
+                          <i class="uil uil-arrow-right button_icon"></i>
+                      </a>
+                  </div>
+              </div>
+  
+              <div class="card box bg-red-200 rounded-lg">
+                  <img class="card-img h-64 object-cover p-4 rounded-lg" src="images/darkpc2.jpg" alt="IMS website">
+                  <div class="flex justify-end mr-6">
+                      <a href="https://github.com" class="card-item button bg-blue-500 text-white rounded-lg py-2 px-3 mt-3 mb-3">
+                          Demo
+                          <i class="uil uil-arrow-right button_icon"></i>
+                      </a>
+                  </div>
+              </div>
+  
+              <div class="card box bg-red-200 rounded-lg">
+                  <img class="card-img h-64 object-cover p-4 rounded-lg" src="images/game2.jpg" alt="IMS website">
+                  <div class="flex justify-end mr-6 ">
+                      <a href="https://github.com" class="card-item button bg-blue-500 text-white rounded-lg py-2 px-3 mt-3 mb-3">
+                          Demo
+                          <i class="uil uil-arrow-right button_icon"></i>
+                      </a>
+                  </div>
+              </div>
+  
+              <div class="card box bg-red-200 rounded-lg">
+                  <img class="card-img h-64 object-cover p-4 rounded-lg" src="images/makeup2.jpg" alt="IMS website">
+                  <div class="flex justify-end mr-6">
+                      <a href="https://github.com" class="card-item button bg-blue-500 text-white rounded-lg py-2 px-3 mt-3 mb-3">
+                          Demo
+                          <i class="uil uil-arrow-right button_icon"></i>
+                      </a>
+                  </div>
+              </div>
+  
+              <div class="card box bg-red-200 rounded-lg">
+                  <img class="card-img h-64 object-cover p-4 rounded-lg" src="images/bluecard3.jpg" alt="IMS website">
+                  <div class="flex justify-end mr-6">
+                      <a href="https://github.com" class="card-item button bg-blue-500 text-white rounded-lg py-2 px-3 mt-3 mb-3">
+                          Demo
+                          <i class="uil uil-arrow-right button_icon"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="flex  mt-4">
+                <button class="button rounded-lg bg-blue-400 px-6 py-3 mb-6" type="button">Download CV</button>
+              </div>
+          </div>
+      </div>
+  </main>
+
+      <footer class="py-4   bg-blue-500">
+        <div class="flex  justify-center">
+            <a class="px-6 text-white"  href="https://www.facebook.com">
+                <i class="uil uil-facebook-f text-3xl"></i>
+            </a>
+            <a class="px-6 text-white"  href="https://www.instagram.com">
+                <i class="uil uil-instagram text-3xl"></i>
+            </a>
+            <a class="px-6 text-white"  href="https://github.com">
+                <i class="uil uil-github text-3xl"></i>
+            </a>
+            <a class="px-6 text-white"  href="https://telegram.org">
+                <i class="uil uil-telegram text-3xl"></i>
+            </a>
+            <a class="px-6 text-white"  href="https://www.youtube.com">
+                <i class="uil uil-youtube text-3xl"></i>
+            </a>
         </div>
-        <div>
-            <div>
-                <div>
-                    <img class="portfoli_img" src="images/goldencard2.png" alt="golden business card">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/coffee2.jpg" alt=" E-commerce website ">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/darkpc2.jpg" alt="IMS website">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/game2.jpg" alt="Game">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/makeup2.jpg" alt="Cosmetics webapp">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/bluecard3.jpg" alt="Business Card">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div>
-            <button class="@@@@" type="button">Download CV</button>
-        </div>
-    </main>
-    <footer>
-        <p>For more info</p>
-        <a href="#">
-            <i class="uil uil-facebook-f"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-instagram"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-github"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-telegram"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-youtube"></i>
-        </a>
     </footer>
+    <script src="javascript/script.js"></script>
 </body>
 </html>

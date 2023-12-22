@@ -3,113 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>skills</title>    
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">  
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="css/style.css"><!-- This is 17 line css added because the mandatory to adjust some elements -->
+
 </head>
 <body>
+    
     <header>
-        <nav>
-            <div>
-                <i class='bx bx-menu'></i> 
-            </div>
-            <div>
-                <a href="#">ADLUCEM TECH</a>
-            </div>
-
-            <div>
-                <div>
-                    <i class='bx bx-x'></i>
+        <nav class="bg-blue-500 py-6 shadow">
+            <div class="flex justify-between items-center px-4 py-2 align-center">
+                <div class="flex items-center">
+                    <div class="text-white text-3xl font-bold">
+                        <a href="index.html" class="px-4 py-2">ADLUCEM TECH</a>
+                    </div>
                 </div>
-
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
+                <div class="md:hidden">
+                    <button class="p-2 text-white" id="menu-toggle">
+                        <i class='bx bx-menu text-3xl'></i>
+                    </button>
+                </div>
+                <div class="hidden md:block">
+                    <ul class="flex space-x-4 text-white text-lg justify-end">
+                        <li><a href="index.html" class="px-4 py-2">Home</a></li>
+                        <li><a href="skills.html" class="px-4 py-2">Skills</a></li>
+                        <li><a href="portfolio.html" class="px-4 py-2">Portfolio</a></li>
+                        <li><a href="service.html" class="px-4 py-2">Service</a></li>
+                        <li><a href="contact.html" class="px-4 py-2">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:hidden md:hidden  md:flex md:flex-col md:items-start" id="menu-items">
+                <a href="index.html" class="block text-white px-4 py-2">Home</a>
+                <a href="skills.html" class="block text-white px-4 py-2">Skills</a>
+                <a href="portfolio.html" class="block text-white px-4 py-2">Portfolio</a>
+                <a href="service.html" class="block text-white px-4 py-2">Service</a>
+                <a href="contact.html" class="block text-white px-4 py-2">Contact</a>
             </div>
         </nav>
     </header>
-  
-    <main>
-        <div>
-            <h2>Skills</h2>
-            <p>Discover a bit about my skills</p>
-            <div>
-                <a href="#">Education</a>
+
+    <section class="container">
+        <div class="grid grid-cols-1 lg:grid-cols-2 mb-6 mt-4 ml-12">
+            <div class="col-span-1 lg:col-span-11">
+                <h1 class="text-3xl font-bold">Skills</h1>
+                <p class="text-lg">Discover a bit about my skills</p>
             </div>
-        </div>    
-    <div>
-        <article>
-            <h2>Frontend Web Development</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>React</li>
-            </ul>
-            <p>I am a highly skilled and experienced frontend web developer with a passion for creating visually stunning and user-friendly websites. With a deep understanding of HTML, CSS, and JavaScript, I have the ability to bring any design concept to life and create seamless and interactive user experiences. I am proficient in responsive design techniques, ensuring that websites look and function flawlessly across all devices and screen sizes. I pay close attention to detail, meticulously crafting clean and efficient code that is both maintainable and scalable. Additionally, I have experience with various frontend frameworks such as Bootstrap and React, allowing me to build dynamic and feature-rich websites. I am constantly staying up-to-date with the latest industry trends and best practices, ensuring that my skills are always at the cutting edge of frontend development. Whether it's creating a stunning landing page, optimizing website performance, or implementing complex animations, I have the expertise to deliver exceptional results.</p>
-        </article>
-        <article>
-            <h2>Backend Web development</h2>
-            <ul>
-                <li>Python</li>
-                <li>PHP</li>
-                <li>Java</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-                <li>Django</li>
-                <li>Laravel</li>
-            </ul>
-            <p>I am a highly skilled and experienced backend web developer with a strong focus on creating robust and scalable websites. With a deep understanding of programming languages such as Python, PHP, and Java, I have the ability to build efficient and secure backend systems that power dynamic websites. I am proficient in database management, utilizing technologies like MySQL and MongoDB to store and retrieve data seamlessly. Additionally, I have experience with backend frameworks such as Django and Laravel, allowing me to rapidly develop feature-rich web applications. I am well-versed in API integration, enabling seamless communication between different systems and services. I pay meticulous attention to detail, ensuring that my code is clean, maintainable, and follows best practices. I am constantly staying up-to-date with the latest advancements in backend development, allowing me to leverage cutting-edge technologies to deliver exceptional results. Whether it's optimizing website performance, implementing complex business logic, or ensuring data security, I have the expertise to create high-quality backend solutions for any website portfoli</p>
-        </article>
-        <article>
-            <h2>Graphic Designer</h2>
-            <p>I am also a passionate graphic designer with a knack for creating stunning visuals and captivating user experiences specifically tailored for website portfolios. With years of honing my craft, I have developed an extensive skill set that allows me to excel in this field. My expertise goes beyond creating eye-catching designs; I understand the delicate balance between aesthetics and functionality, ensuring that every element on a website serves a purpose.</p>
-        </article>
-        <article>
-            <h2>UI designer</h2>
-            <p> my skills encompass a wide range of abilities that contribute to the creation of visually appealing and user-friendly digital experiences. I have a keen eye for aesthetics, allowing me to effectively use colors, typography, and layout to create visually engaging interfaces that captivate users. My proficiency in graphic design software enables me to craft pixel-perfect designs with precision and meticulous attention to detail.
-            One of my strengths lies in creating intuitive navigation systems and user flows. I excel at designing seamless interactions that ensure easy accessibility for users, enhancing their overall experience on the website. Through my expertise in user research and usability testing, I am able to gather valuable insights and make informed design decisions that align with user needs and preferences.
-            </p>
-        </article>
-    </div>
-        <div>
-            <h2>Visit my Youtube Channel where I teach UI and Graphic Design</h2>
-            <iframe  src="https://www.youtube.com/embed/YqQx75OPRa0?si=T3CyvG_T2MljNydM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <!-- width="560" height="315" this was from the iframe tag-->
+            <div class="col-span-1 lg:col-span-1">
+                <a class="bg-primary text-white py-2 px-4 rounded-full" href="education.html">Education</a>
+            </div>
         </div>
+    </section>
+
+    <main class="container">
+        <section class="flex flex-col lg:flex-row mb-6 ml-6">
+            <div class="lg:w-2/4 bg-green-400 mr-6 mb-6 p-6 lg:ml-12 lg:gap-10 rounded-md">
+                <article class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                    <h2 class="text-2xl font-bold">Frontend Web Development</h2>
+                    <p>I am a highly skilled and experienced frontend web developer with a passion for creating visually stunning and user-friendly websites. With a deep understanding of HTML, CSS, and JavaScript, I have the ability to bring any design concept to life and create seamless and interactive user experiences. I am proficient in responsive design techniques, ensuring that websites look and function flawlessly across all devices and screen sizes. I pay close attention to detail, meticulously crafting clean and efficient code that is both maintainable and scalable. Additionally, I have experience with various frontend frameworks such as Bootstrap and React, allowing me to build dynamic and feature-rich websites. I am constantly staying up-to-date with the latest industry trends and best practices, ensuring that my skills are always at the cutting edge of frontend development. Whether it's creating a stunning landing page, optimizing website performance, or implementing complex animations, I have the expertise to deliver exceptional results.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>React</li>
+                    </ul>
+                </article>
+
+                <article class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                    <h2 class="text-2xl font-bold">Backend Web development</h2>
+                    <p>I am a highly skilled and experienced backend web developer with a strong focus on creating robust and scalable websites. With a deep understanding of programming languages such as Python, PHP, and Java, I have the ability to build efficient and secure backend systems that power dynamic websites. I am proficient in database management, utilizing technologies like MySQL and MongoDB to store and retrieve data seamlessly. Additionally, I have experience with backend frameworks such as Django and Laravel, allowing me to rapidly develop feature-rich web applications. I am well-versed in API integration, enabling seamless communication between different systems and services. I pay meticulous attention to detail, ensuring that my code is clean, maintainable, and follows best practices. I am constantly staying up-to-date with the latest advancements in backend development, allowing me to leverage cutting-edge technologies to deliver exceptional results. Whether it's optimizing website performance, implementing complex business logic, or ensuring data security, I have the expertise to create high-quality backend solutions for any website portfoli</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>PHP</li>
+                        <li>Java</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Django</li>
+                        <li>Laravel</li>
+                    </ul>
+                    <!-- Remaining content for backend web development section -->
+                </article>
+                <article class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                    <h2 class="text-2xl font-bold">Graphic Designer</h2>
+                    <p>I am also a passionate graphic designer with a knack for creating stunning visuals and captivating user experiences specifically tailored for website portfolios. With years of honing my craft, I have developed an extensive skill set that allows me to excel in this field. My expertise goes beyond creating eye-catching designs; I understand the delicate balance between aesthetics and functionality, ensuring that every element on a website serves a purpose.</p>
+                    <!-- Remaining content for graphic design section -->
+                </article>
+                <article class="bg-white rounded-lg shadow-lg p-6">
+                    <h2 class="text-2xl font-bold">UI designer</h2>
+                    <p> My skills encompass a wide range of abilities that contribute to the creation of visually appealing and user-friendly digital experiences. I have a keen eye for aesthetics, allowing me to effectively use colors, typography, and layout to create visually engaging interfaces that captivate users. My proficiency in graphic design software enables me to craft pixel-perfect designs with precision and meticulous attention to detail.
+                        One of my strengths lies in creating intuitive navigation systems and user flows. I excel at designing seamless interactions that ensure easy accessibility for users, enhancing their overall experience on the website. Through my expertise in user research and usability testing, I am able to gather valuable insights and make informed design decisions that align with user needs and preferences.
+                        </p>
+                </article>
+            </div>
+    
+            <div class="lg:w-1/4 md:ml-6 ml:24 lg:mt-40 pt-6 mb-6 lg:ml-12 w-800 h-600">
+                <h2 class="pb-2 text-xl font-semibold lg:ml-12">Visit my Youtube Channel where I teach UI and Graphic Design</h2>
+                <iframe class="mb-6" src="https://www.youtube.com/embed/YqQx75OPRa0?si=T3CyvG_T2MljNydM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>For more info</p>
-        <a href="#">
-            <i class="uil uil-facebook-f"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-instagram"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-github"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-telegram"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-youtube"></i>
-        </a>
+
+    <footer class="py-4   bg-blue-500">
+        <div class="flex  justify-center">
+            <a class="px-6 text-white"  href="https://www.facebook.com">
+                <i class="uil uil-facebook-f text-3xl"></i>
+            </a>
+            <a class="px-6 text-white"  href="https://www.instagram.com">
+                <i class="uil uil-instagram text-3xl"></i>
+            </a>
+            <a class="px-6 text-white"  href="https://github.com">
+                <i class="uil uil-github text-3xl"></i>
+            </a>
+            <a class="px-6 text-white"  href="https://telegram.org">
+                <i class="uil uil-telegram text-3xl"></i>
+            </a>
+            <a class="px-6 text-white"  href="https://www.youtube.com">
+                <i class="uil uil-youtube text-3xl"></i>
+            </a>
+        </div>
     </footer>
+    <script src="javascript/script.js"></script> 
 </body>
 </html>

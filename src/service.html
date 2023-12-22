@@ -4,109 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- This is 17 line css added because the mandatory to adjust some elements -->
 
 </head>
 <body>
+    
     <header>
-        <nav>
-            <div>
-                <i class='bx bx-menu'></i> 
-            </div>
-            <div>
-                <a href="#">ADLUCEM TECH</a>
-            </div>
-
-            <div>
-                <div>
-                    <i class='bx bx-x'></i>
+        <nav class="bg-blue-500 py-6 shadow">
+            <div class="flex justify-between items-center px-4 py-2 align-center">
+                <div class="flex items-center">
+                    <div class="text-white text-3xl font-bold">
+                        <a href="index.html" class="px-4 py-2">ADLUCEM TECH</a>
+                    </div>
                 </div>
-
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
+                <div class="md:hidden">
+                    <button class="p-2 text-white" id="menu-toggle">
+                        <i class='bx bx-menu text-3xl'></i>
+                    </button>
+                </div>
+                <div class="hidden md:block">
+                    <ul class="flex space-x-4 text-white text-lg justify-end">
+                        <li><a href="index.html" class="px-4 py-2">Home</a></li>
+                        <li><a href="skills.html" class="px-4 py-2">Skills</a></li>
+                        <li><a href="portfolio.html" class="px-4 py-2">Portfolio</a></li>
+                        <li><a href="service.html" class="px-4 py-2">Service</a></li>
+                        <li><a href="contact.html" class="px-4 py-2">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:hidden md:hidden  md:flex md:flex-col md:items-start" id="menu-items">
+                <a href="index.html" class="block text-white px-4 py-2">Home</a>
+                <a href="skills.html" class="block text-white px-4 py-2">Skills</a>
+                <a href="portfolio.html" class="block text-white px-4 py-2">Portfolio</a>
+                <a href="service.html" class="block text-white px-4 py-2">Service</a>
+                <a href="contact.html" class="block text-white px-4 py-2">Contact</a>
             </div>
         </nav>
     </header>
-    <main>
-        <div>
-            <h2>Service</h2>
-            <p>The services I offer</p>
+
+
+    <div class="bg-gray-100 pb-12 pl-12">
+        <h1 class="text-3xl font-bold ml-6 pt-5 ">Service</h1>
+        <p class="text-gray-600 ml-6">The service I give</p>
+    </div>
+
+    <main class="section bg-gray-100">
+        <div class="container">
+          <div class="flex flex-wrap justify-center  lg:ml-64">
+            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-4 mb-8">
+              <div class="card bg-white rounded-lg shadow-lg h-72 py-6 px-6 text-center">
+                <i class='bx bx-paint icon text-red-500 text-3xl'></i>
+                <h2 class="subtitle text-2xl font-bold text-black mt-4">Graphic<br>Designer</h2>
+                <p class="text-gray-800">This service brings your vision to life through stunning graphic design solutions.</p>
+              </div>
+            </div>
+      
+            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-4 mb-8">
+              <div class="card bg-white rounded-lg shadow-lg h-72 py-6 px-6 text-center">
+                <i class='bx bx-pencil icon text-red-500 text-3xl'></i>
+                <h2 class="subtitle text-2xl font-bold text-black mt-4">UI/UX<br>Design</h2>
+                <p class="text-gray-800">I excel in creating intuitive and visually appealing user interfaces that enhance the user experience.</p>
+              </div>
+            </div>
+      
+            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-4 mb-8">
+              <div class="card bg-white rounded-lg shadow-lg h-72 py-6 px-6 text-center">
+                <i class='bx bx-code-alt icon text-red-500 text-3xl'></i>
+                <h2 class="subtitle text-2xl font-bold text-black mt-4">Frontend<br>Development</h2>
+                <p class="text-gray-800">We are experts in seamless frontend development, utilizing the latest technologies and best practices.</p>
+              </div>
+            </div>
+      
+            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-4 mb-8">
+              <div class="card bg-white rounded-lg shadow-lg h-72 py-6 px-6 text-center">
+                <i class='bx bx-code-curly icon text-red-500 text-3xl'></i>
+                <h2 class="subtitle text-2xl font-bold text-black mt-4">Backend<br>Development</h2>
+                <p class="text-gray-800">Our team is proficient in developing robust backend solutions that power the functionality of web applications.</p>
+              </div>
+            </div>
+      
+            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-4 mb-8">
+              <div class="card bg-white rounded-lg shadow-lg h-72 py-6 px-6 text-center">
+                <i class='bx bx-book-content icon text-red-500 text-3xl'></i>
+                <h2 class="subtitle text-2xl font-bold text-black mt-4">Content<br>Creation</h2>
+                <p class="text-gray-800">This service focuses on creating engaging and compelling content across various platforms.</p>
+              </div>
+            </div>
+      
+            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-4 mb-8">
+              <div class="card bg-white rounded-lg shadow-lg h-72 py-6 px-6 text-center">
+                <i class='bx bx-share-alt icon text-red-500 text-3xl'></i>
+                <h2 class="subtitle text-2xl font-bold text-black mt-4">Social Media<br>Management</h2>
+                <p class="text-gray-800">This service specializes in managing social media accounts for businesses, ensuring impactful online presence.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-            
-            <div>
-                    <i class='bx bx-paint'></i>
-                    <h3>Graphic <br> Designer</h3>
-                    <p>This service bring your vision to life through stunning graphic design solutions.</p>
-            </div>
-
-            <div>
-                 <i class='bx bx-pencil'></i>            
-                  <h3> UI/UX <br> design</h3>
-                  <p>I excel in creating intuitive and visually appealing user interfaces that enhance the user experience. </p>
-            </div>
-
-            <div>
-                <i class='bx bx-code-alt'></i>
-               <h3 >Frontend<br>Development</h3>
-               <p>We are experts in seamless frontend development, utilizing the latest technologies and best practices to create responsive and dynamic web applications..</p>
-            </div>
-
-            <div>
-                <i class='bx bx-code-curly'></i>
-               <h3>Backend<br> Development</h3>
-               <p>Our team is proficient in developing robust backend solutions that power the functionality of web applications. </p>
-            </div>
-
-            <div>
-                <i class='bx bx-book-content'></i>
-                <h3>Content<br>Creating </h3>
-                <p>This service focus on creating engaging and compelling content across various platforms</p>
-             </div>
-
-             <div>
-                <i class='bx bx-share-alt' ></i>
-                <h3>Social media<br> Managment</h3>
-                <p>This sercice specializes in managing social media accounts for businesses, ensuring a consistent and impactful online presence. </p>
-            </div>
-
-        </div>
-    </main>
-    <footer>
-        <div>
-            <p>For more info</p>
-            <a href="#">
-                <i class="uil uil-facebook-f"></i>
+      </main>
+    <footer class="py-4   bg-blue-500">
+        <div class="flex  justify-center">
+            <a class="px-6 text-white"  href="https://www.facebook.com">
+                <i class="uil uil-facebook-f text-3xl"></i>
             </a>
-            <a href="#">
-                <i class="uil uil-instagram"></i>
+            <a class="px-6 text-white"  href="https://www.instagram.com">
+                <i class="uil uil-instagram text-3xl"></i>
             </a>
-            <a href="#">
-                <i class="uil uil-github"></i>
+            <a class="px-6 text-white"  href="https://github.com">
+                <i class="uil uil-github text-3xl"></i>
             </a>
-            <a href="#">
-                <i class="uil uil-telegram"></i>
+            <a class="px-6 text-white"  href="https://telegram.org">
+                <i class="uil uil-telegram text-3xl"></i>
             </a>
-            <a href="#">
-                <i class="uil uil-youtube"></i>
+            <a class="px-6 text-white"  href="https://www.youtube.com">
+                <i class="uil uil-youtube text-3xl"></i>
             </a>
         </div>
     </footer>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
