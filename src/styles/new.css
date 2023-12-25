@@ -1,0 +1,12 @@
+.Main{
+    margin-bottom: 200px;
+}
+iframe{
+    width: 400px;
+    height: 300px;
+}
+@media(max-width: 380px){
+    iframe{
+        width: 300px;
+    }
+}

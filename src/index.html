@@ -4,91 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/new.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
 </head>
 <body>
+
     <header>
-        <nav>
-            <div>
-                <i class='bx bx-menu'></i> 
-            </div>
-            <div>
-                <a href="#">ADLUCEM TECH</a>
-            </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary py-3">
+            <div class="container">
 
-            <div>
-                <div>
-                    <i class='bx bx-x'></i>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand fs-2 fw-bold d-none d-md-block" href="index.html">ADLUCEM TECH</a>
+                <a class="navbar-brand fs-2 fw-bold navbar-toggler" href="index.html">ADLUCEM TECH</a>
+                
+    
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="navbar-nav text-white">
+                        <li class="nav-item fs-5 text-white px-2">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item fs-5 px-2">
+                            <a class="nav-link text-white" href="skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item fs-5 px-2">
+                            <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item fs-5 px-2">
+                            <a class="nav-link text-white" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item fs-5 px-2">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
             </div>
         </nav>
     </header>
-    <main>
-        <section>
-            <div >
-                <div>
-                    <div>
-                        <img  src="images/aiback.png" alt="This my photo">
+
+    <main class="mb-5">
+        <div class=" Main container  ml-4 pl-4">
+            <div class="row align-items-center pt-4">
+
+                <div class="col-md-4 col-lg-3 d-md-block d-lg-none ">
+                    <img src="images/aiback.png" alt="This my photo" class="img-fluid">
+                    <div id="Main__icons" class="d-flex mt-4 ml-5 pl-5">
+                        <a class="ml-4 mr-2 px-4" href="https://www.facebook.com">
+                            <i class="uil uil-facebook-f text-primary fs-3 pl-4"></i>
+                        </a>
+                        <a class="ml-4 mr-2 px-4" href="https://www.instagram.com">
+                            <i class="uil uil-instagram text-primary fs-3 pl-4"></i>
+                        </a>
+                        <a class="ml-4 mr-2 px-4" href="https://github.com">
+                            <i class="uil uil-github text-primary fs-3 pl-4"></i>
+                        </a>
                     </div>
-                    <div>
-                        <a href="#">
-                            <i class="uil uil-facebook-f"></i>
-                        </a>
-                        <a href="#">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                        <a href="#">
-                            <i class="uil uil-github"></i>
-                        </a>
+                </div>
+    
+                <div class="col-md-9 col-lg-6 mt-4 mt-md-0 ml-4 pl-5 w-75">
+                    <h1 class="display-4 font-weight-bold">Hi, This is Sifen</h1>
+                    <h3 class="h2 font-weight-bold">Frontend developer</h3>
+                    <p class="mt-4">Welcome to my web portfolio! I am a highly skilled and creative individual with expertise in <br> frontend development, UI design, and graphic design.</p>
+                    <a class="mt-5 pt-5" href="contact.html">
+                        <button type="button" class="btn btn-primary btn-lg">Contact Me</button>
+                    </a>
+                </div>
+    
+                <div class="col-md-3 d-none d-lg-block mt-5 pt-5">
+                    <div class="d-flex">
+                        <img class="img-fluid " id="Main__image2" src="images/aiback.png" alt="This is my photo">
                     </div>
-                    <div>
-                        <h1>Hi,This is Sifen</h1>
-                        <h3>Frontend developer</h3>
-                        <p>Welcome to my web portfolio! I am a highly skilled and creative individual with expertise in frontend development, UI design, and graphic design.</p>
-                        <button type="button">Contact Me</button>
+                    <div id="Main__icons" class="d-flex mt-4 ml-5 pl-5">
+                        <a class="ml-4 mr-2 px-4" href="https://www.facebook.com">
+                            <i class="uil uil-facebook-f text-primary fs-3 pl-4"></i>
+                        </a>
+                        <a class="ml-4 mr-2 px-4" href="https://www.instagram.com">
+                            <i class="uil uil-instagram text-primary fs-3 pl-4"></i>
+                        </a>
+                        <a class="ml-4 mr-2 px-4" href="https://github.com">
+                            <i class="uil uil-github text-primary fs-3 pl-4"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer>
-        <div>
-            <p>For more info</p>
-            <a href="#">
-                <i class="uil uil-facebook-f"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-instagram"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-github"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-telegram"></i>
-            </a>
-            <a href="#">
-                <i class="uil uil-youtube"></i>
-            </a>
         </div>
-    </footer>
+    </main>
+
+    <footer class="py-2 mt-5 bg-primary">
+        <div class="d-flex justify-content-center align-items-center">
+          <a class="px-3 text-white fs-3" href="https://www.facebook.com">
+            <i class="uil uil-facebook-f px-lg-4"></i>
+          </a>
+          <a class="px-3 text-white fs-3" href="https://www.instagram.com">
+            <i class="uil uil-instagram px-lg-4"></i>
+          </a>
+          <a class="px-3 text-white fs-3" href="https://github.com">
+            <i class="uil uil-github px-lg-4"></i>
+          </a>
+          <a class="px-3 text-white fs-3" href="https://telegram.org">
+            <i class="uil uil-telegram px-lg-4"></i>
+          </a>
+          <a class="px-3 text-white fs-3" href="https://www.youtube.com">
+            <i class="uil uil-youtube px-lg-4"></i>
+          </a>
+        </div>
+      </footer>
+      <script src="boostrapjavascript/bootstrap.bundle.js"></script>
 </body>
 </html>

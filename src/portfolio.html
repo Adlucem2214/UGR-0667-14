@@ -3,131 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Page</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                <i class='bx bx-menu'></i> 
-            </div>
-            <div>
-                <a href="#">ADLUCEM TECH</a>
-            </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary py-3">
+            <div class="container">
 
-            <div>
-                <div>
-                    <i class='bx bx-x'></i>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand fs-2 fw-bold d-none d-md-block" href="index.html">ADLUCEM TECH</a>
+                <a class="navbar-brand fs-2 fw-bold navbar-toggler" href="index.html">ADLUCEM TECH</a>
+                
+    
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="navbar-nav text-white">
+                        <li class="nav-item fs-5 text-white px-2">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item fs-5 px-2">
+                            <a class="nav-link text-white" href="skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item fs-5 px-2">
+                            <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item fs-5 px-2">
+                            <a class="nav-link text-white" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item fs-5 px-2">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Service</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
             </div>
         </nav>
     </header>
+
+
+    <div class="pb-5 pl-5 mx-5">
+        <h1 class="text-3xl font-bold mt-3 ">Portfolio</h1>
+        <p class="text-lg ml-2 pb-3">Some of my works</p>
+        <p class="text-justify mr-3">Welcome to my portfolio page! Here you will find a collection of my work in web development, UI design, and graphic design. I am passionate about creating visually appealing and user-friendly digital experiences, and I have had the opportunity to work on a variety of projects that showcase my skills in these areas. Whether it's building a responsive website, designing an intuitive user interface, or creating eye-catching graphics, I strive to deliver high-quality work that meets the needs of my clients and engages their target audience.</p>
+    </div>
+
+    <main class="section">
+        <div class="container">
+            <div class="row mt-5 ml-5">                
+                <div class="col-lg-4  col-md-5">
+                    <div class="card bg-info mb-3  rounded-lg mb-3">
+                        <img class="card-img-top px-3 pt-3 h- object-cover rounded-lg" src="images/coffee2.jpg" alt="E-commerce website">
+                        <div class="card-body">
+                            <div class="text-end">
+                                <a href="https://github.com" class="btn btn-primary rounded-lg">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                
+                <div class="col-lg-4  col-md-5">
+                    <div class="card bg-info rounded-lg mb-3">
+                        <img class="card-img-top px-3 pt-3 h-64 object-cover rounded-lg" src="images/darkpc2.jpg" alt="IMS website">
+                        <div class="card-body">
+                            <div class="text-end">
+                                <a href="https://github.com" class="btn btn-primary rounded-lg">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     
-    <main>
-        <div>
-            <h2>Portfolio</h2>
-            <p> Some of my works</p>
-            <p>Welcome to my portfolio page! Here you will find a collection of my work in web development, UI design, and graphic design. I am passionate about creating visually appealing and user-friendly digital experiences, and I have had the opportunity to work on a variety of projects that showcase my skills in these areas. Whether it's building a responsive website, designing an intuitive user interface, or creating eye-catching graphics, I strive to deliver high-quality work that meets the needs of my clients and engages their target audience.</p>
-        </div>
-        <div>
-            <div>
-                <div>
-                    <img class="portfoli_img" src="images/goldencard2.png" alt="golden business card">
+                
+                <div class="col-lg-4  col-md-5">
+                    <div class="card bg-info rounded-lg mb-3">
+                        <img class="card-img-top px-3 pt-3 h-64 object-cover rounded-lg" src="images/goldencard2.png" alt="IMS website">
+                        <div class="card-body">
+                            <div class="text-end">
+                                <a href="https://github.com" class="btn btn-primary rounded-lg">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
+            
+    
+                <div class="col-lg-4  col-md-5">
+                    <div class="card bg-info rounded-lg mb-3">
+                        <img class="card-img-top px-3 pt-3 h-64 object-cover rounded-lg" src="images/game2.jpg" alt="IMS website">
+                        <div class="card-body">
+                            <div class="text-end">
+                                <a href="https://github.com" class="btn btn-primary rounded-lg">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img class="portfoli_img" src="images/coffee2.jpg" alt=" E-commerce website ">
+    
+                
+                <div class="col-lg-4  col-md-5">
+                    <div class="card bg-info rounded-lg mb-3">
+                        <img class="card-img-top px-3 pt-3 h-64 object-cover rounded-lg" src="images/makeup2.jpg" alt="IMS website">
+                        <div class="card-body">
+                            <div class="text-end">
+                                <a href="https://github.com" class="btn btn-primary rounded-lg">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
+    
+                
+                <div class="col-lg-4  col-md-5">
+                    <div class="card bg-info rounded-lg mb-3">
+                        <img class="card-img-top px-3 pt-3 h-64 object-cover rounded-lg" src="images/bluecard3.jpg" alt="IMS website">
+                        <div class="card-body">
+                            <div class="text-end">
+                                <a href="https://github.com" class="btn btn-primary rounded-lg">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img class="portfoli_img" src="images/darkpc2.jpg" alt="IMS website">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/game2.jpg" alt="Game">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/makeup2.jpg" alt="Cosmetics webapp">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
-                </div>
-                <div>
-                    <img class="portfoli_img" src="images/bluecard3.jpg" alt="Business Card">
-                </div>
-                <div>
-                    <a href="#">
-                        Demo 
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </a>
+            </div>
+    
+            <div class="row mt-4 justify-content-center justify-content-md-start">
+                <div class="col-auto">
+                    <button class="btn btn-primary rounded-lg px-4 py-2 mb-6" type="button">Download CV</button>
                 </div>
             </div>
         </div>
-        <div>
-            <button class="@@@@" type="button">Download CV</button>
-        </div>
     </main>
-    <footer>
-        <p>For more info</p>
-        <a href="#">
-            <i class="uil uil-facebook-f"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-instagram"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-github"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-telegram"></i>
-        </a>
-        <a href="#">
-            <i class="uil uil-youtube"></i>
-        </a>
-    </footer>
-</body>
+
+    <footer class="py-2 mt-5 bg-primary">
+        <div class="d-flex justify-content-center align-items-center">
+          <a class="px-3 text-white fs-3" href="https://www.facebook.com">
+            <i class="uil uil-facebook-f px-lg-4"></i>
+          </a>
+          <a class="px-3 text-white fs-3" href="https://www.instagram.com">
+            <i class="uil uil-instagram px-lg-4"></i>
+          </a>
+          <a class="px-3 text-white fs-3" href="https://github.com">
+            <i class="uil uil-github px-lg-4"></i>
+          </a>
+          <a class="px-3 text-white fs-3" href="https://telegram.org">
+            <i class="uil uil-telegram px-lg-4"></i>
+          </a>
+          <a class="px-3 text-white fs-3" href="https://www.youtube.com">
+            <i class="uil uil-youtube px-lg-4"></i>
+          </a>
+        </div>
+      </footer>
+      <script src="boostrapjavascript/bootstrap.bundle.js"></script>
+    </body>
 </html>
